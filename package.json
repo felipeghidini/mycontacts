@@ -1,0 +1,11 @@
+{
+  "name": "mycontacts",
+  "version": "1.0.0",
+  "description": "Api to contacts",
+  "main": "src/index.js",
+  "author": "Felipe Ghidini",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
