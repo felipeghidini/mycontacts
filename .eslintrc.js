@@ -15,5 +15,6 @@ module.exports = {
       'error',
       'windows',
     ],
+    'class-methods-use-this': 'off',
   },
 };
