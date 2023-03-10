@@ -5,8 +5,7 @@ module.exports = {
     node: true,
   },
   extends: 'airbnb-base',
-  overrides: [
-  ],
+  overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
   },
@@ -17,4 +16,10 @@ module.exports = {
     ],
     'class-methods-use-this': 'off',
   },
+  'import/no-extraneous-dependencies': ['error', {
+    devDependencies: false,
+    optionalDependencies: false,
+    peerDependencies: false,
+  }],
+
 };
